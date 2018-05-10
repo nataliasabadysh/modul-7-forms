@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fonts/roboto-slab-v7-latin-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/montserrat-v12-latin-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Monserrat";
+  src: url("../fonts/montserrat-v12-latin-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Wisdom Script";
+  src: url("../fonts/WisdomScriptAJ.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-v18-latin-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "WisdomScriptAJ";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/WisdomScriptAJ.woff") format("woff");
+}

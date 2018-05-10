@@ -1,0 +1,175 @@
+body{
+  color: #777777;
+  font: 300 14px/21px "Roboto Slab", sans-serif;
+}
+.container {
+   padding-top: 40px;
+}
+/*HEADER START*/
+.header , .main{
+  display: flex;
+  justify-content: space-between;
+  max-width: 940px;
+  margin: 0 auto;
+  align-items: baseline;
+}
+.logo {
+  font: 26px/1 "WisdomScriptAJ";
+  color: #fed136;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  max-width: 486px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.nav-link{
+  font: 400 14px/1 "Montserrat", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #fed136;
+}
+/*HEADER END*/
+
+/*MAIN START*/
+.main{
+  padding: 50px 0;
+}
+.services {
+  display: flex;
+  flex-flow: column;
+  justify-content: stretch;
+  padding: 120px 0;
+  text-align: center;
+}
+.title-block {
+  font: bold 36px/1 "Montserrat", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.title-block span{
+  font: italic 16px/1 "Droid Serif", sans-serif;
+  color: #777777;
+  margin-bottom: 76px;
+  text-transform: none;
+  text-align: center;
+}
+.service-list {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+.service-list-item {
+  flex-basis: 310px;
+  padding: 0 10px;
+}
+.icon-basket::before {background: url("../img/Icon-Basket.png")no-repeat center;}
+.icon-laptop::before {background: url("../img/Icon-Laptop.png")no-repeat center;}
+.icon-lock::before {background: url("../img/Icon-Locked.png")no-repeat center;}
+
+.service-list-item::before {
+  content: '';
+  display: block;
+  border: 3px solid  #fed136;
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+  margin: 30px auto;
+}
+h3.services-list-item-titel{
+    font: bold 24px/1 "Montserrat";
+    color: #222222;
+    margin-bottom: 16px;
+}
+/*MAIN END*/
+
+/*FOOTER START*/
+.full-screen-bg{
+  background: #222222;
+  width: 100%;  
+  padding-top: 120px;
+}
+.footer{
+   text-align: center;
+   background: url("../img/Map_footer.png")no-repeat right 23px; 
+}
+.footer .title{
+  color: #fff;
+}
+.contact-us{
+  width: 940px;
+  margin: 0 auto;
+}
+.contact-us-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.data-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 457px;
+}
+.data-form-item input{
+  width: 100%;
+  padding: 20px;
+  border: none; 
+  border-radius: 3px;
+  min-height: 50px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.data-form-item input:focus[type='email']:valid,
+.data-form-item input:focus[type='text']:valid,
+textarea:focus:valid {
+  outline: 1px solid #00ffd0;
+  box-shadow: 0 0 7px 1px #58cf68;
+
+}
+.data-form-item input:focus[type='email']:invalid,
+.data-form-item input:focus[type='text']:invalid,
+textarea:focus:invalid {
+  outline: 1px solid #ff644c;
+  box-shadow: 0 0 7px 1px #ff644c;
+
+}
+.data-form-item input::placeholder,
+textarea::placeholder {
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+textarea {
+  resize: none;
+  width: 457px;
+  border-radius: 3px;
+  padding: 20px;
+  height: 100%;
+  font-size: 14px;
+  line-height: 17px;
+}
+.submit-button {
+  border: none;
+  margin: 30px auto;
+  padding: 25px 60px;
+  background-color: #fed136;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+.submit-button:hover {
+  background:  #efd88b;
+}
+/*FOOTER END*/
+
+
+
